@@ -13,7 +13,7 @@ int main() {
         if (num == 0) {
             break;
         }
-
+        
         if (num % 2 == 0) {
             evenCount++;
         } else {
@@ -22,5 +22,5 @@ int main() {
     }
     cout << "#Even numbers = "<< evenCount;
     cout << "\n#Odd numbers = "<<  oddCount;
-    return 0;
+    return 0; 
 }
